@@ -29,7 +29,7 @@ Imports System.Data
 
 Public Class [Global]
     Inherits System.Web.HttpApplication
-    Public Const Global_FTP_ADRESSE = "ftp://192.168.1.137/"
+    Public Const Global_FTP_ADRESSE = "ftp://192.168.1.138/"
 
     Public Const Global_APP_NAME_SIGLE = "IHSI APP STORE"
     Public Const GLOBAL_Langue_Preferer = "Langue_Preferer"
