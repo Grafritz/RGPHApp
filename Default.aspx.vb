@@ -34,6 +34,7 @@ Partial Class _Default
                 Literal_Titre.Text = [Global].Global_APP_NAME_SIGLE
                 Literal_TitrePage.Text = "APP APK STORE IHSI"
 
+                Link_NEW_IHSI_rgph_Ver02Avril2018.Attributes.Add("href", [Global].Global_FTP_ADRESSE & "IHSI_5eRGPH/IHSI-rgph-Ver1.0_02-04-2018/IHSI-rgph-Ver1.0_02-04-2018.apk")
                 Link_NEW_IHSI_rgph_Ver1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & "IHSI_5eRGPH/NEW_IHSI-rgph-Ver1.0_26-03-2018/NEW_IHSI-rgph-Ver1.0_26-03-2018.apk")
 
 

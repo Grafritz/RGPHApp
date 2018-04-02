@@ -162,47 +162,77 @@
             <div class="cl-mcont">
                 <h4 class="text-center">Cliquez sur la version de l&#39;Application qui vous int&eacuteresse</h4>
                 <div class="row dash-cols">
-                    <div class="col-sm-6 col-md-6">
+                    <div class="col-sm-4 col-md-4">
                         <div class="block-flat">
                             <div class="header">
                                 <div class="pull-right actions">
                                 </div>
-                                <h3 style="color:red;font-weight:100;" >
-                                    <img src="images/logo_rgph.png" alt="" style="width:70px;" />
-                                    Application de Collecte</h3>
+                                <h3 style="color: red; font-weight: 100;">
+                                    <img src="images/logo_rgph.png" alt="" style="width: 70px;" />
+                                    App Collecte</h3>
                             </div>
                             <div class="content">
                                 <div class="list-group">
-                                    <a  class="list-group-item" href="#" runat="server" ID="Link_NEW_IHSI_rgph_Ver1" >
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i> Application de collecte</b></h5>
-                                        <div><i class="fa fa-asterisk"></i> Version 1.0</div>
-                                        <div><i class="fa  fa-calendar"></i> Date: 09-Mars-2018</div>
+                                    <a class="list-group-item" href="#" runat="server" id="Link_NEW_IHSI_rgph_Ver02Avril2018">
+                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Application de collecte</b></h5>
+                                        <div>
+                                            <i class="fa fa-asterisk"></i>Version 1.0
+                                            <i class="fa  fa-calendar"></i>Date: 02-Avril-2018
+                                        </div>
+                                    </a>
+                                    <a class="list-group-item" href="#" runat="server" id="Link_NEW_IHSI_rgph_Ver1">
+                                        <div>
+                                            <i class="fa fa-asterisk"></i>Version 1.0
+                                        <i class="fa  fa-calendar"></i>Date: 09-Mars-2018
+                                        </div>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6">
+                    <div class="col-sm-4 col-md-4">
                         <div class="block-flat">
                             <div class="header">
                                 <div class="pull-right actions">
                                 </div>
-                                <h3 style="color:dodgerblue;font-weight:100;" >
-                                    <img src="images/logoformation.png" alt="" style="width:70px;"  />
-                                    Application d'Evaluation Formation</h3>
+                                <h3 style="color: dodgerblue; font-weight: 100;">
+                                    <img src="images/logoformation.png" alt="" style="width: 70px;" />
+                                    Evaluation Formation</h3>
                             </div>
                             <div class="content">
                                 <div class="list-group">
-                                    <a class="list-group-item" runat="server" ID="Link_RGPH_Formation_V1" >
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i> Application d'Evaluation</b></h5>
-                                        <div><i class="fa fa-asterisk"></i> Version 1.0</div>
-                                        <div><i class="fa  fa-calendar"></i> Date: 09-Mars-2018</div>
+                                    <a class="list-group-item" runat="server" id="Link_RGPH_Formation_V1">
+                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Evaluation</b></h5>
+                                        <div>
+                                            <i class="fa fa-asterisk"></i>Version 1.0 
+                                            <i class="fa  fa-calendar"></i>Date: 09-Mars-2018
+                                        </div>
                                     </a>
                                 </div>
                             </div>
                         </div>
-
-
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="block-flat">
+                            <div class="header">
+                                <div class="pull-right actions">
+                                </div>
+                                <h3 style="color: red; font-weight: 100;">
+                                    <img src="images/logo_epc.png" alt="" style="width: 80px;" />
+                                    EPC</h3>
+                            </div>
+                            <div class="content">
+                                <div class="list-group">
+                                    <a class="list-group-item" href="#" runat="server" id="Link_epc_Version1">
+                                        <%--<h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Application de collecte</b></h5>--%>
+                                        <div>
+                                            <i class="fa fa-asterisk"></i>Version 1.0
+                                            <i class="fa  fa-calendar"></i>Date: 02-Avril-2018
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
