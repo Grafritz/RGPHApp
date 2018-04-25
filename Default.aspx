@@ -201,10 +201,15 @@
                             </div>
                             <div class="content">
                                 <div class="list-group">
-                                    <a class="list-group-item" runat="server" id="Link_RGPH_Formation_V1">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Evaluation</b></h5>
+                                    <a class="list-group-item" runat="server" id="Link_RGPH_Formation_V2">
+                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 2.0 </b></h5>
                                         <div>
-                                            <i class="fa fa-asterisk"></i>Version 1.0 
+                                            <i class="fa  fa-calendar"></i>Date: 24-Avril-2018
+                                        </div>
+                                    </a>
+                                    <a class="list-group-item" runat="server" id="Link_RGPH_Formation_V1">
+                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.0</b></h5>
+                                        <div>
                                             <i class="fa  fa-calendar"></i>Date: 09-Mars-2018
                                         </div>
                                     </a>

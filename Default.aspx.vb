@@ -39,6 +39,7 @@ Partial Class _Default
 
 
                 Link_RGPH_Formation_V1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "RGPH_FormationEvaluation/RGPH_Formation_V1/RGPH_Formation_V1.apk")
+                Link_RGPH_Formation_V2.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "RGPH_FormationEvaluation/RGPH_Formation_V2/RGPH_Formation_V2.apk")
 
                 'BindGrid()
             End If
