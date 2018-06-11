@@ -1,5 +1,5 @@
 ﻿
-Partial Class _Default
+Partial Class PageAppSuperviseur
     Inherits System.Web.UI.Page
 
 
