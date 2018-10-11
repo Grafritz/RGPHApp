@@ -35,6 +35,7 @@ Partial Class _Default
                 Literal_TitrePage.Text = "APP APK STORE IHSI"
 
                 'RGPH Collecte
+                Link_IHSI_rgph_Ver2_0.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "RGPH_Collecte_V2.0/RGPH_Collecte_V2.0.apk")
                 Link_NEW_IHSI_rgph_Ver02Avril2018.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "IHSI-rgph-Ver1.0_02-04-2018/IHSI-rgph-Ver1.0_02-04-2018.apk")
                 Link_NEW_IHSI_rgph_Ver1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "NEW_IHSI-rgph-Ver1.0_26-03-2018/NEW_IHSI-rgph-Ver1.0_26-03-2018.apk")
                 Link_NEW_IHSI_rgph_Ver1_2.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "RGPH_Collecte_V1.2/RGPH_Collecte_V1.2.apk")
@@ -71,8 +72,8 @@ Partial Class _Default
                 'APK RGPH Rapport Superviseur
                 Link_RGPH_RapportSuperviseur_V1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "RGPH_RapportSuperviseur/RGPH_RapportSuperviseur_V1/RGPH_RapportSuperviseur_V1.apk")
 
-                'APK RGPH Rapport Superviseur
-                Link_RGPH_RapportSuperviseur_V1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "RGPH_RapportSuperviseur/RGPH_RapportSuperviseur_V1/RGPH_RapportSuperviseur_V1.apk")
+                'APK RGPH EPC
+                Link_RGPH_EPC_V1_0.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "EPC_APP/EPC_V1.0/EPC_V1.0.apk")
 
             End If
         End If

@@ -98,6 +98,12 @@
                                 <div id="collapseOne" class="panel-collapse collapse" style="height: 0px;">
                                     <div class="panel-body">
                                         <div class="list-group">
+                                            <a class="list-group-item" href="#" runat="server" id="Link_IHSI_rgph_Ver2_0">
+                                                <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 2.0 </b></h5>
+                                                <div>
+                                                    <i class="fa  fa-calendar"></i>: 11-Octobre-2018
+                                                </div>
+                                            </a>
                                             <a class="list-group-item" href="#" runat="server" id="Link_NEW_IHSI_rgph_Ver1_2">
                                                 <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.2 </b></h5>
                                                 <div>
@@ -436,10 +442,10 @@
                                 <div id="collapseOne_EPC" class="panel-collapse collapse" style="height: 0px;">
                                     <div class="panel-body">
                                         <div class="list-group">
-                                            <a class="list-group-item" href="#" runat="server" id="A1">
+                                            <a class="list-group-item" href="#" runat="server" id="Link_RGPH_EPC_V1_0">
                                                 <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.0</b></h5>
                                                 <div>
-                                                    <i class="fa  fa-calendar"></i>: 10-Mai-2018
+                                                    <i class="fa  fa-calendar"></i>: 18-Juillet-2018
                                                 </div>
                                             </a>
                                         </div>

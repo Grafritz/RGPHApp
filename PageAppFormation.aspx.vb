@@ -32,7 +32,7 @@ Partial Class PageAppFormation
         If Is_Acces_Page Then
             If Not IsPostBack Then
                 Literal_Titre.Text = [Global].Global_APP_NAME_SIGLE
-                Literal_TitrePage.Text = "APP APK STORE IHSI"
+                Literal_TitrePage.Text = "APP STORE IHSI"
 
                 'RGPH Collecte
                 Link_NEW_IHSI_rgph_Ver02Avril2018.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "IHSI-rgph-Ver1.0_02-04-2018/IHSI-rgph-Ver1.0_02-04-2018.apk")
