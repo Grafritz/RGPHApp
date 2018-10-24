@@ -1,4 +1,4 @@
-﻿' @Brain Development
+' @Brain Development
 ' www.tdb.rezo509.com
 '' Jeudo 12-09-2013
 
@@ -29,7 +29,7 @@ Imports System.Data
 
 Public Class [Global]
     Inherits System.Web.HttpApplication
-    Public Const Global_FTP_ADRESSE = "ftp://192.168.1.148/"
+    Public Const Global_FTP_ADRESSE = "ftp://192.168.1.144/"
     Public Const Global_PATH_FOLDER_APK = "" '"APK_Realase/"
     Public Const Global_RGPH_FOLDER_NAME = "IHSI_5eRGPH/"
 
