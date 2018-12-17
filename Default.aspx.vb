@@ -39,6 +39,7 @@ Partial Class _Default
                 Link_NEW_IHSI_rgph_Ver02Avril2018.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "IHSI-rgph-Ver1.0_02-04-2018/IHSI-rgph-Ver1.0_02-04-2018.apk")
                 Link_NEW_IHSI_rgph_Ver1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "NEW_IHSI-rgph-Ver1.0_26-03-2018/NEW_IHSI-rgph-Ver1.0_26-03-2018.apk")
                 Link_NEW_IHSI_rgph_Ver1_2.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "RGPH_Collecte_V1.2/RGPH_Collecte_V1.2.apk")
+
                 'RGPH Collecte ANcienne version
                 Link_RGPH_Collecte_V0.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V0/RGPH_Collecte_V0.apk")
                 Link_RGPH_Collecte_V1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1/RGPH_Collecte_V1.apk")
@@ -48,6 +49,11 @@ Partial Class _Default
                 Link_RGPH_Collecte_V1_2_2.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1.2.2/RGPH_Collecte_V1.2.2.apk")
                 Link_RGPH_Collecte_V1_2_3.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1.2.3/RGPH_Collecte_V1.2.3.apk")
                 Link_RGPH_Collecte_V1_3.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1.3/RGPH_Collecte_V1.3.apk")
+
+                Link_RGPH_Collecte_V1_3_1_1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "RGPH_Collecte_V1.3.1.1/RGPH_Collecte_V1.3.1.1.apk")
+                Link_RGPH_Collecte_V1_3_1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "RGPH_Collecte_V1.3.1/RGPH_Collecte_V1.3.1.apk")
+                Link_NEW_RGPH_Collecte_V1_3.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "RGPH_Collecte_V1.3/RGPH_Collecte_V1.3.apk")
+
                 Link_RGPH_Collecte_V1_4.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1.4/RGPH_Collecte_V1.4.apk")
                 Link_RGPH_Collecte_V1_4_1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1.4.1/RGPH_Collecte_V1.4.1.apk")
                 Link_RGPH_Collecte_V5_0.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V5.0/RGPH_Collecte_V5.0.apk")

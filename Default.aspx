@@ -104,6 +104,28 @@
                                                     <i class="fa  fa-calendar"></i>: 11-Octobre-2018
                                                 </div>
                                             </a>
+                                            <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V1_3_1_1">
+                                                <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.3.1.1 </b>
+                                                    <span class="badge badge-danger">Pilote</span>
+                                                </h5>
+                                                <div>
+                                                    <i class="fa  fa-calendar"></i>: 08-Juin-2018
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V1_3_1">
+                                                <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.3.1 </b>
+                                                </h5>
+                                                <div>
+                                                    <i class="fa  fa-calendar"></i>: 08-Juin-2018
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#" runat="server" id="Link_NEW_RGPH_Collecte_V1_3">
+                                                <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.3 </b>
+                                                </h5>
+                                                <div>
+                                                    <i class="fa  fa-calendar"></i>: 01-Juin-2018
+                                                </div>
+                                            </a>
                                             <a class="list-group-item" href="#" runat="server" id="Link_NEW_IHSI_rgph_Ver1_2">
                                                 <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.2 </b></h5>
                                                 <div>
