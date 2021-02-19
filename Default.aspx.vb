@@ -80,6 +80,9 @@ Partial Class _Default
 
                 'APK RGPH EPC
                 Link_RGPH_EPC_V1_0.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "EPC_APP/EPC_V1.0/EPC_V1.0.apk")
+                Link_RGPH_EPC_V1_1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "EPC_APP/EPC_V1.1/EPC_V1.1.apk")
+                Link_RGPH_EPC_V1_1_1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "EPC_APP/EPC_V1.1.1/EPC_V1.1.1.apk")
+                Link_RGPH_EPC_V1_1_2.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "EPC_APP/EPC_V1.1.2/EPC_V1.1.2.apk")
 
             End If
         End If

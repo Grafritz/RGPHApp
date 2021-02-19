@@ -32,47 +32,11 @@ Partial Class PageAppFormation
         If Is_Acces_Page Then
             If Not IsPostBack Then
                 Literal_Titre.Text = [Global].Global_APP_NAME_SIGLE
-                Literal_TitrePage.Text = "APP STORE IHSI"
+                Literal_TitrePage.Text = "APP FORMATION EXE IHSI"
 
-                'RGPH Collecte
-                Link_NEW_IHSI_rgph_Ver02Avril2018.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "IHSI-rgph-Ver1.0_02-04-2018/IHSI-rgph-Ver1.0_02-04-2018.apk")
-                Link_NEW_IHSI_rgph_Ver1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "NEW_IHSI-rgph-Ver1.0_26-03-2018/NEW_IHSI-rgph-Ver1.0_26-03-2018.apk")
-                Link_NEW_IHSI_rgph_Ver1_2.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "RGPH_Collecte_V1.2/RGPH_Collecte_V1.2.apk")
-                'RGPH Collecte ANcienne version
-                Link_RGPH_Collecte_V0.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V0/RGPH_Collecte_V0.apk")
-                Link_RGPH_Collecte_V1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1/RGPH_Collecte_V1.apk")
-                Link_RGPH_Collecte_V1_1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1.1/RGPH_Collecte_V1.1.apk")
-                Link_RGPH_Collecte_V1_2.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1.2/RGPH_Collecte_V1.2.apk")
-                Link_RGPH_Collecte_V1_2_1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1.2.1/RGPH_Collecte_V1.2.1.apk")
-                Link_RGPH_Collecte_V1_2_2.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1.2.2/RGPH_Collecte_V1.2.2.apk")
-                Link_RGPH_Collecte_V1_2_3.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1.2.3/RGPH_Collecte_V1.2.3.apk")
-                Link_RGPH_Collecte_V1_3.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1.3/RGPH_Collecte_V1.3.apk")
-                Link_RGPH_Collecte_V1_4.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1.4/RGPH_Collecte_V1.4.apk")
-                Link_RGPH_Collecte_V1_4_1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V1.4.1/RGPH_Collecte_V1.4.1.apk")
-                Link_RGPH_Collecte_V5_0.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V5.0/RGPH_Collecte_V5.0.apk")
-                Link_RGPH_Collecte_V5_1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V5.1/RGPH_Collecte_V5.1.apk")
-                Link_RGPH_Collecte_V6_0.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & [Global].Global_RGPH_FOLDER_NAME & "AncienneVersion/RGPH_Collecte_V6.0/RGPH_Collecte_V6.0.apk")
-
-                'Inventaire Terrain
-                Link_IHSI_InventaireTerrain_Ver1_0.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "IHSI_InventaireTerrain/IHSI_InventaireTerrain_Ver1.0/IHSI_InventaireTerrain_Ver1.0.apk")
-                Link_IHSI_InventaireTerrain_Ver1_0_1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "IHSI_InventaireTerrain/IHSI_InventaireTerrain_Ver1.0.1/IHSI_InventaireTerrain_Ver1.0.1.apk")
-                Link_IHSI_InventaireTerrain_Ver1_0_2.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "IHSI_InventaireTerrain/IHSI_InventaireTerrain_Ver1.0.2/IHSI_InventaireTerrain_Ver1.0.2.apk")
-                Link_IHSI_InventaireTerrain_Ver1_0_3.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "IHSI_InventaireTerrain/IHSI_InventaireTerrain_Ver1.0.3/IHSI_InventaireTerrain_Ver1.0.3.apk")
-                Link_IHSI_InventaireTerrain_Ver1_3_0.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "IHSI_InventaireTerrain/IHSI_InventaireTerrain_Ver1.3.0/IHSI_InventaireTerrain_Ver1.3.0.apk")
-                Link_IHSI_InventaireTerrain_Ver1_4.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "IHSI_InventaireTerrain/IHSI_InventaireTerrain_Ver1.4/IHSI_InventaireTerrain_Ver1.4.apk")
-                Link_IHSI_InventaireTerrain_Ver1_5.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "IHSI_InventaireTerrain/IHSI_InventaireTerrain_Ver1.5/IHSI_InventaireTerrain_Ver1.5.apk")
 
                 'APK RGPH Formation EVALUATION
-                Link_RGPH_Formation_V1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "RGPH_FormationEvaluation/RGPH_Formation_V1/RGPH_Formation_V1.apk")
-                Link_RGPH_Formation_V2.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "RGPH_FormationEvaluation/RGPH_Formation_V2/RGPH_Formation_V2.apk")
-                Link_RGPH_Formation_V2_1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "RGPH_FormationEvaluation/RGPH_Formation_V2.1/RGPH_Formation_V2_1.apk")
-                Link_RGPH_Formation_V2_4.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "RGPH_FormationEvaluation/RGPH_Formation_V2.4/RGPH_Formation_V2.4.apk")
-
-                'APK RGPH Rapport Superviseur
-                Link_RGPH_RapportSuperviseur_V1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "RGPH_RapportSuperviseur/RGPH_RapportSuperviseur_V1/RGPH_RapportSuperviseur_V1.apk")
-
-                'APK RGPH Rapport Superviseur
-                Link_RGPH_RapportSuperviseur_V1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_APK & "RGPH_RapportSuperviseur/RGPH_RapportSuperviseur_V1/RGPH_RapportSuperviseur_V1.apk")
+                Link_RGPH_AppFormation_V1.Attributes.Add("href", [Global].Global_FTP_ADRESSE & [Global].Global_PATH_FOLDER_EXE & "RGPH_FormationEvaluation/RGPH_Formation_V1/Setup_RGPH-AppFormation_V1.exe")
 
             End If
         End If

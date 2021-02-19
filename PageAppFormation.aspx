@@ -59,7 +59,7 @@
                     <small class="pull-right breadcrumb" style="font-size: 15px; color: darkcyan;">Dev. par:  Jean Fritz DUVERSEAU
                     </small></h2>
             </div>
-            <div class="spacer" style="text-align:center;">
+            <div class="spacer" style="text-align: center;">
                 <div class="btn-group">
                     <asp:HyperLink runat="server" ID="HyperLink_AppMobile" CssClass="btn btn-primary" NavigateUrl="~/Default.aspx">
                         <i class="fa fa-mobile"></i> 
@@ -79,261 +79,40 @@
                 <h4 class="text-center">Cliquez sur la version de l&#39;Application qui vous int&eacuteresse</h4>
                 <div class="row dash-cols">
                     <div class="col-sm-4 col-md-4">
-                        <div class="block-flat">
-                            <div class="header">
-                                <div class="pull-right actions">
-                                </div>
-                                <h3 style="color: red; font-weight: 100;">
-                                    <img src="images/logo_rgph.png" alt="" style="width: 70px;" />
-                                    App Collecte</h3>
+                        <div class="header headerStyle">
+                            <div class="pull-right actions">
                             </div>
-                            <div class="content">
-                                <div class="list-group">
-                                    <a class="list-group-item" href="#" runat="server" id="Link_NEW_IHSI_rgph_Ver1_2">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.2 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 09-Mai-2018
+                            <h3 style="color: dodgerblue; font-weight: 100;">
+                                <img src="images/logoformation.png" alt="" style="width: 70px;" />
+                                App Planification Formation</h3>
+                        </div>
+                        <div class="panel-group accordion" id="accordion_EF">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion_EF" href="#collapseOne_EF" class="collapsed">
+                                            <i class="fa fa-angle-right"></i>Version Année 2019
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne_EF" class="panel-collapse collapse" style="height: 0px;">
+                                    <div class="panel-body">
+                                        <div class="list-group">
+                                            <a class="list-group-item" runat="server" id="Link_RGPH_AppFormation_V1">
+                                                <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.0 </b>
+                                                    <span style="color:red;"> ( Incomplete )</span></h5>
+                                                <div>
+                                                    <i class="fa  fa-calendar"></i>: 13-Mai-2019
+                                                </div>
+                                            </a>
                                         </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_NEW_IHSI_rgph_Ver02Avril2018">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.1 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 02-Avril-2018
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_NEW_IHSI_rgph_Ver1">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.0 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 09-Mars-2018
-                                        </div>
-                                    </a>
-
-                                    <hr />
-
-                                    <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V6_0">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 6.0 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 07-Juin-2017
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V5_1">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 5.1 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 19-Avril-2017
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V5_0">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 5.0 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 08-Février-2017
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V1_4_1">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.4.1 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 31-Janvier-2017
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V1_4">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.4 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 12-Janvier-2017
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V1_3">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.3 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 29-Décembre-2016
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V1_2_3">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.2.3 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 10-Novembre-2016
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V1_2_2">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.2.2 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 04-Novembre-2016
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V1_2_1">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.2.1 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 28-Octobre-2016
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V1_2">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.2 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 20-Octobre-2016
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V1_1">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.1 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 19-Octobre-2016
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V1">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 18-Octobre-2016
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V0">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 0 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 30-Aout-2016
-                                        </div>
-                                    </a>
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
 
-                    <div class="col-sm-4 col-md-4">
-                        <div class="block-flat">
-                            <div class="header">
-                                <div class="pull-right actions">
-                                </div>
-                                <h3 style="color: red; font-weight: 100;">
-                                    <img src="images/logo_rgph.png" alt="" style="width: 70px;" />
-                                    App Cartographique</h3>
-                            </div>
-                            <div class="content">
-                                <div class="list-group">
-                                    <a class="list-group-item" href="#" runat="server" id="Link_IHSI_InventaireTerrain_Ver1_5">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.5 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 15-Septembre-2017
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_IHSI_InventaireTerrain_Ver1_4">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.4 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 12-Janvier-2017
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_IHSI_InventaireTerrain_Ver1_3_0">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.3.0 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 30-Décembre-2016
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_IHSI_InventaireTerrain_Ver1_0_3">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.0.3 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 28-Décembre-2016
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_IHSI_InventaireTerrain_Ver1_0_2">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.0.2 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 14-Septembre-2016
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_IHSI_InventaireTerrain_Ver1_0_1">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.0.1 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 09-Septembre-2016
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#" runat="server" id="Link_IHSI_InventaireTerrain_Ver1_0">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.0 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 01-Septembre-2016
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-md-4">
-                        <div class="block-flat">
-                            <div class="header">
-                                <div class="pull-right actions">
-                                </div>
-                                <h3 style="color: dodgerblue; font-weight: 100;">
-                                    <img src="images/logoformation.png" alt="" style="width: 70px;" />
-                                    Evaluation Formation</h3>
-                            </div>
-                            <div class="content">
-                                <div class="list-group">
-                                    <a class="list-group-item" runat="server" id="Link_RGPH_Formation_V2_4">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 2.4 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 10-Mai-2018
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" runat="server" id="Link_RGPH_Formation_V2_1">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 2.1 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 03-Mai-2018
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" runat="server" id="Link_RGPH_Formation_V2">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 2.0 </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 24-Avril-2018
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" runat="server" id="Link_RGPH_Formation_V1">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.0</b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 09-Mars-2018
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-md-4">
-                        <div class="block-flat">
-                            <div class="header">
-                                <div class="pull-right actions">
-                                </div>
-                                <h3 style="color: darkgreen; font-weight: 100;">
-                                    <img src="images/logo_rapport_supervision.png" alt="" style="width: 70px;" />
-                                    App Rapport Superviseur</h3>
-                            </div>
-                            <div class="content">
-                                <div class="list-group">
-                                    <a class="list-group-item" href="#" runat="server" id="Link_RGPH_RapportSuperviseur_V1">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.0</b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: 10-Mai-2018
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-md-4">
-                        <div class="block-flat">
-                            <div class="header">
-                                <div class="pull-right actions">
-                                </div>
-                                <h3 style="color: red; font-weight: 100;">
-                                    <img src="images/logo_epc.png" alt="" style="width: 80px;" />
-                                    EPC</h3>
-                            </div>
-                            <div class="content">
-                                <div class="list-group">
-                                    <a class="list-group-item" href="#" runat="server" id="Link_epc_Version1">
-                                        <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>.???. </b></h5>
-                                        <div>
-                                            <i class="fa  fa-calendar"></i>: ???
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
 
@@ -428,5 +207,14 @@
     <script type="text/javascript" src="CleanZone/js/jquery.flot/jquery.flot.pie.js"></script>
     <script type="text/javascript" src="CleanZone/js/jquery.flot/jquery.flot.resize.js"></script>
     <script type="text/javascript" src="CleanZone/js/jquery.flot/jquery.flot.labels.js"></script>
+
+    <style type="text/css">
+        .headerStyle {
+            margin-bottom: 0px;
+            padding: 20px 20px;
+            background: #FFF;
+            border-bottom: 1px solid #dadada;
+        }
+    </style>
 </body>
 </html>

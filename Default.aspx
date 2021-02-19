@@ -90,6 +90,28 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2019" class="collapsed">
+                                            <i class="fa fa-angle-right"></i>Version Année 2019
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse2019" class="panel-collapse collapse" style="height: 0px;">
+                                    <div class="panel-body">
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="#" runat="server" id="Link_IHSI_rgph_Ver2_0">
+                                                <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 2.0 </b></h5>
+                                                <div>
+                                                    <i class="fa  fa-calendar"></i>: 11-Juillet-2019
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="collapsed">
                                             <i class="fa fa-angle-right"></i>Version Année 2018
                                         </a>
@@ -98,12 +120,12 @@
                                 <div id="collapseOne" class="panel-collapse collapse" style="height: 0px;">
                                     <div class="panel-body">
                                         <div class="list-group">
-                                            <a class="list-group-item" href="#" runat="server" id="Link_IHSI_rgph_Ver2_0">
+                                            <%--<a class="list-group-item" href="#" runat="server" id="Link_IHSI_rgph_Ver2_0">
                                                 <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 2.0 </b></h5>
                                                 <div>
                                                     <i class="fa  fa-calendar"></i>: 11-Octobre-2018
                                                 </div>
-                                            </a>
+                                            </a>--%>
                                             <a class="list-group-item" href="#" runat="server" id="Link_RGPH_Collecte_V1_3_1_1">
                                                 <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.3.1.1 </b>
                                                     <span class="badge badge-danger">Pilote</span>
@@ -456,6 +478,29 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion_EPC" href="#collapseOne_EPC2019" class="collapsed">
+                                            <i class="fa fa-angle-right"></i>Version Année 2019
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne_EPC2019" class="panel-collapse collapse" style="height: 0px;">
+                                    <div class="panel-body">
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="#" runat="server" id="Link_RGPH_EPC_V1_1_2">
+                                                <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.1.2</b>
+                                                    <%--<span class="badge badge-danger">12-Mars-2019</span>--%>
+                                                </h5>
+                                                <div>
+                                                    <i class="fa  fa-calendar"></i>: 12-Mars-2019
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion_EPC" href="#collapseOne_EPC" class="collapsed">
                                             <i class="fa fa-angle-right"></i>Version Année 2018
                                         </a>
@@ -464,6 +509,25 @@
                                 <div id="collapseOne_EPC" class="panel-collapse collapse" style="height: 0px;">
                                     <div class="panel-body">
                                         <div class="list-group">
+                                            <a class="list-group-item" href="#" runat="server" id="Link_RGPH_EPC_V1_1_1">
+                                                <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.1.1</b>
+                                                    <span class="badge badge-danger">Pré Test</span>
+                                                </h5>
+                                                <div>
+                                                    <i class="fa  fa-calendar"></i>: 18-Décembre-2018
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#" runat="server" id="Link_RGPH_EPC_V1_1">
+                                                <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.1</b>
+                                                </h5>
+                                                <div>
+                                                    <i class="fa  fa-calendar"></i>: 17-Décembre-2018 <span style="color:red;"> ( BUG Integer )</span>
+                                                    <img src="images/bug3.png" style="width:20px;" />
+                                                    <img src="images/bug3.png" style="width:20px;" />
+                                                    <img src="images/bug3.png" style="width:20px;" />
+                                                    <img src="images/bug3.png" style="width:20px;" />
+                                                </div>
+                                            </a>
                                             <a class="list-group-item" href="#" runat="server" id="Link_RGPH_EPC_V1_0">
                                                 <h5 class="list-group-item-heading"><b><i class="fa fa-mobile-phone"></i>Version 1.0</b></h5>
                                                 <div>

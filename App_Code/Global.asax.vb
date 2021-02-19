@@ -29,8 +29,9 @@ Imports System.Data
 
 Public Class [Global]
     Inherits System.Web.HttpApplication
-    Public Const Global_FTP_ADRESSE = "ftp://192.168.30.9/"
-    Public Const Global_PATH_FOLDER_APK = "_Travaux_IHSI/ProjetAndroid/APK_Realase/" '"APK_Realase/"
+    Public Const Global_FTP_ADRESSE = "ftp://192.168.20.12/"
+    Public Const Global_PATH_FOLDER_APK = "_Travaux_IHSI/ProjetAndroid/APK_Realase/"
+    Public Const Global_PATH_FOLDER_EXE = "_Travaux_IHSI/ProjetAndroid/EXE_Realase/"
     Public Const Global_RGPH_FOLDER_NAME = "IHSI_5eRGPH/"
 
     Public Const Global_APP_NAME_SIGLE = "IHSI APP STORE"
